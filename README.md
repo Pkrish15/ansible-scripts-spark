@@ -18,3 +18,10 @@ Ansible Playbook Scripts for Apache Spark Configuration
 6) Click Deploy Button and add your either artifact id or project id. <br>
    http://pmml-ui-route-pk.apps.dev39.openshift.opentlc.com/
    
+# Spark-Submit Jobs
+
+# Pre-Requisites
+    a) You should install local spark in your desktop from this url (https://spark.apache.org/downloads.html)
+    b) You should have github or any version control installed in your local desktop
+    
+   
