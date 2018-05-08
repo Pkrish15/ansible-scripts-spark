@@ -1,0 +1,21 @@
+---
+- name: create a new project in openshift dev39
+  shell: |
+        oc new-project tk
+
+- name: Adding the spark-template to the project
+  shell: |
+        oc new-app https://raw.githubusercontent.com/Pkrish15/ansible-spark/master/spark-template.yaml
+
+- pause:
+    seconds: 30
+ 
+- name: Expose as a service
+  shell: |
+         oc expose svc/spark-master-webui
+
+- pause:
+   seconds: 30
+
+
+
