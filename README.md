@@ -13,4 +13,8 @@ Ansible Playbook Scripts for Apache Spark Configuration
 
 5) To use oshinko Cluster Configuration,Please use the below url. pk is your openshift project namespace <br>
  
-http://oshinko-web-pk.apps.dev39.openshift.opentlc.com/webui/#/clusters
+   http://oshinko-web-pk.apps.dev39.openshift.opentlc.com/webui/#/clusters
+
+6) Click Deploy Button and add your either artifact id or project id. <br>
+   http://pmml-ui-route-pk.apps.dev39.openshift.opentlc.com/
+   
