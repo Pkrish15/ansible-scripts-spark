@@ -10,3 +10,7 @@ Ansible Playbook Scripts for Apache Spark Configuration
 4) To run this playbook, please execute the below command.<br>
     
    $ [root@localhost ansible-scripts-spark] ansible-playbook -v ocp.yml
+
+5) To use oshinko Cluster Configuration,Please use the below url. pk is your openshift project namespace <br>
+ 
+http://oshinko-web-pk.apps.dev39.openshift.opentlc.com/webui/#/clusters
