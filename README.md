@@ -26,10 +26,12 @@ Ansible Playbook Scripts for Apache Spark Configuration
   --total-executor-cores 100 \
   /path/to/pmml-export.jar \
   
+8) More Format of Deployment is described in this below url.<br>
+   https://spark.apache.org/docs/2.2.0/submitting-applications.html
  
 
 # Pre-Requisites for Spark-submit
-    a) You should install local spark in your desktop from this url (https://spark.apache.org/downloads.html)
+    a) You should install local spark (preferrably latest version 2.3) in your desktop from this url (https://spark.apache.org/downloads.html)
     b) You should have github or any version control installed in your local desktop
     
    
