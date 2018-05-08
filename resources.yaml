@@ -20,7 +20,6 @@ items:
     subjects:
       - kind: ServiceAccount
         name: oshinko
-
   - apiVersion: v1
     kind: Template
     labels:
@@ -34,7 +33,7 @@ items:
     objects:
     - apiVersion: v1
       kind: ImageStream
-      metadata:
+      metadata: 
         name: ${APPLICATION_NAME}
         labels:
           app: ${APPLICATION_NAME}
