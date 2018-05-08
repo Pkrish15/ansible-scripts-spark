@@ -7,4 +7,6 @@ Ansible Playbook Scripts for Apache Spark Configuration
 3) Navigate to the Spark-WEB-UI Configuration URL. 
    Please apply your project namespace configuration <br>
     http://spark-master-webui-{your-project-namespace}.apps.dev39.openshift.opentlc.com/
-
+4) To run this playbook, please execute the below command.<br>
+    
+   $ [root@localhost ansible-scripts-spark] ansible-playbook -v ocp.yml
