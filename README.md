@@ -1,6 +1,7 @@
 # ansible-scripts-spark
 Ansible Playbook Scripts for Apache Spark Configuration
 
+0) login using oc utility - oc login -u prakrish-redhat.com -p XXXXXXX https://master.dev39.openshift.opentlc.com/
 1) ansible-galaxy init ./roles/spark/tasks
 2) tree /roles/spark/tasks/
 3) Navigate to the Spark-WEB-UI Configuration URL. 
